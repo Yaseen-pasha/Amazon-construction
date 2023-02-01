@@ -221,6 +221,7 @@
 .footname{
     text-decoration: none;
     margin: 3px;
+    color: darkgoldenrod;
 }
 
 /* <-----SERVICES---> */
@@ -504,4 +505,15 @@
     width: 100%;
     position: fixed;
     z-index: 100;
+}
+.social{
+    height: 41px;
+    margin: 8px 7px 10px 7px;
+}
+.social:hover{
+    box-shadow: 0 10px 30px rgb(0 0 0 / 40%), 0px 8px 6px rgb(0 0 0 / 48%);
+    border-radius: 100%;
+}
+#client{
+    margin: 4px 0px;
 }
