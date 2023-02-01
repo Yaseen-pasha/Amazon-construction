@@ -201,6 +201,7 @@
     outline: none;
     /* width: 300px; */
     padding: 4px;
+    font-size: 15px;
     }
     .render{
         height: 48vh;
