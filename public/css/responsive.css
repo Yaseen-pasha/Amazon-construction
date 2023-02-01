@@ -98,7 +98,7 @@
         font-size: 18px;
     }
     .sponsors img{
-        height: 24px;
+        height: 35px;
     }
     .footer{
         font-size: 9px;
@@ -205,5 +205,9 @@
     .render{
         height: 48vh;
         padding-bottom: 15px;
+    }
+    .social {
+        /* height: 41px; */
+        margin: 2px 7px 7px 7px;
     }
 }   
