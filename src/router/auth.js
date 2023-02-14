@@ -16,6 +16,9 @@ router.get('/about', (req, res)=>{
 router.get('/contact', (req, res)=>{
     res.status(200).render('contact');
 });
+router.get('*', (req, res)=>{
+    res.render('')
+});
 
 router.post("/contact", (req, res)=>{
     const userData = new User(req.body);
@@ -25,9 +28,6 @@ router.post("/contact", (req, res)=>{
         res.status(400).render("error");
         console.log(error)
     });
-});
-router.get('*', (req, res)=>{
-    res.render('')
 });
 
 module.exports = router;
