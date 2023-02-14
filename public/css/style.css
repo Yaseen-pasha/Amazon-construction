@@ -508,7 +508,7 @@
     z-index: 100;
 }
 .social{
-    height: 41px;
+    height: 30px;
     margin: 8px 7px 10px 7px;
 }
 .social:hover{
@@ -517,4 +517,10 @@
 }
 #client{
     margin: 4px 0px;
+}
+.contact-hr{
+    width: 80%;
+}
+.cont a{
+    text-decoration: none;
 }

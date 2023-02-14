@@ -7,12 +7,13 @@
     <section class="sub-header2">
         {{>navbar2}}
         <div class="txtsub-container">
-            <h1 class="h-primary center">--CONTACT US--</h1>
+            <h1 class="h-primary center">CONTACT US</h1>
             <div class="main1 center">
                 <h1><span class="auto-input"></span></h1>
             </div>
         </div>
     </section>
+
     <section class="contact">
         <div class="row">
             <span>
@@ -20,9 +21,10 @@
                     <div class="details">
                         <img src="images/home.svg" alt="address">
                     </div>
-                    <h5 class="mob">The Amazon Tower</h5>
+                    {{!-- <h5 class="mob">The Amazon Tower</h5> --}}
+                    <a href="https://goo.gl/maps/PDNnNuqkZa6beYdS6" target="_blank"><h5 class="mob">The Amazon Tower</h5></a>
                     <p class="park">Amazon lake road Tumkur</p>
-                    <hr>
+                    <hr class="contact-hr">
                 </div>
             </span>
             <span>
@@ -30,9 +32,10 @@
                     <div class="details">
                         <img src="images/phone.svg" alt="mob">
                     </div>
-                    <h5 class="mob">8310902661</h5>
+                    {{!-- <h5 class="mob">8310902661</h5> --}}
+                    <a href="tel:8310902661" target="_blank"><p class="mob">8310902661</p></a>
                     <p class="park">Monday to Friday, 10AM to 4PM</p>
-                    <hr>
+                    <hr class="contact-hr">
                 </div>
             </span>
             <span>
@@ -41,9 +44,10 @@
                     <div class="details">
                         <img src="images/envelope.svg" alt="Email">
                     </div>
-                    <h5 class="mob">yaseen@amazonconstruction.com</h5>
+                    {{!-- <h5 class="mob">yaseen@amazonconstruction.com</h5> --}}
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=yaseenpadha7296@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello%0AThis%20is%20Yaseen%0AWhat's%20on%20your%20mind??..%0A%0A%0AThank%20You%2C%0A%0A%0A%0A" target="_blank"><p class="mob">yaseen@amazonconstruction.com</p></a>
                     <p class="park">Email us to query</p>
-                    <hr>
+                    <hr class="contact-hr">
                 </div>
             </span>
         </div>
@@ -55,11 +59,13 @@
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>
+    
     <hr>
+
     <section class="cont-col2">
         <div class="render">
             <div class="thumb">
-                <h3 class="nap center">----CONTACT----</h3>
+                <h3 class="nap center">Get In Touch With Us</h3>
             </div>
             <form action="/contact" method="POST">
                 <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
@@ -70,6 +76,7 @@
             </form>
         </div>
     </section>
+
     {{>footer}}
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
@@ -77,5 +84,4 @@
     </script>
     <script src="javascript/resp.js"></script>
 </body>
-
 </html>
